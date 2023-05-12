@@ -19,7 +19,7 @@ IMG_SIZE = 50
 LR = 1e-3
 
 #Переменная создающая модель 
-MODEL_NAME = 'goodvsbad-{}-{}.model'.format(LR,'6conv-basic')
+MODEL_NAME = f'goodvsbad-{LR}-6conv-basic.model'
 
 
 #определение меток изображений 
